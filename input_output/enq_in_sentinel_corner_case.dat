@@ -71,18 +71,18 @@ V 4 64 5 121 0
 V 4 64 5 122 0
 V 4 64 6 123 0
 
-V 4 64 2 101 0
-V 4 64 2 102 0
-V 4 64 2 103 0
-V 4 64 2 104 0
+V 4 64 4 101 0
+V 4 64 4 102 0
+V 4 64 4 103 0
+V 4 64 4 104 0
 
-V 4 64 2 105 0
-V 4 64 2 106 0
-V 4 64 2 107 0
-V 4 64 2 108 0
+V 4 64 4 105 0
+V 4 64 4 106 0
+V 4 64 4 107 0
+V 4 64 4 108 0
 
 
-# Wait for these 64 packets to enqueue (D 5*64 = 320clks, if there is no extra delay)
+# Wait for these 64 packets to enqueue (D 5*8*64 = 320clks, if there is no extra delay)
 
 # Output 16 Metadatas (trigger Sifting) (O 16)
 
@@ -107,9 +107,14 @@ V 4 64 6 209 0
 V 4 64 6 210 0
 V 4 64 6 211 0
 
-V 4 64 6 212 0
-V 4 64 6 213 0
-V 4 64 6 214 0
-V 4 64 6 215 0
+V 4 64 3 300 0
+V 4 64 3 301 0
+V 4 64 3 302 0
+V 4 64 3 303 0
+
+V 4 64 3 304 0
+V 4 64 3 305 0
+V 4 64 3 306 0
+V 4 64 3 307 0
 
 
